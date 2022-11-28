@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+#eclipse {
+    background-color: #152E70;
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.7);
+    position: relative;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    left: -70px;
+    top: -80px;
+}
+
+#shield {
+    position: relative;
+    cursor: pointer;
+    top: -220px;
+}
+
+#title1 {
+    color: #152E70;
+    position: absolute;
+    width: 158px;
+    height: 45px;
+    left: 210px;
+    top: 10px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#title2 {
+    color: red;
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left: 170px;
+    top: 50px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.sidebar {
+    text-decoration: none;
+    padding-left: 50px;
+    color: #152E70;
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    padding-right: 200px;
+    cursor: pointer;
+}
+
+.topnav {
+    justify-content: end;
+    margin: 0 auto;
+    display: flex;
+    top: 45px;
+    margin-left: 850px;
+}
+
+.menu-bar-item:hover {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 35px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    padding: 1rem;
+    position: relative;
+    color: #152E70;
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+}
+
+div {
+    position: absolute;
+}
+
+.bigtext {
+    color: #152E70;
+    font-size: xx-large;
+    font-family: 'Oswald', sans-serif;
+    top: 140px;
+}
+
+#bigtext1 {
+    padding-left: 800px;
+    font-weight: bold;
+    text-shadow: 2px 2px #f78888;
+}
+
+.footer {
+    float: left;
+    margin-top: 100px;
+    color: #152E70;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50px;
+    font-size: large;
+}
+
+#footerimage {
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+}
+
+#line {
+    margin-top: 250px;
+}
+
+#copyright {
+    margin-top: 10px;
+    color: #152E70;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50px;
+    font-size: large;
+    margin-bottom: 150px;
+}

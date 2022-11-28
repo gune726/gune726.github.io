@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+
+#eclipse {
+    background-color: #152E70;
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.7);
+    position: relative;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    left: -70px;
+    top: -80px;
+}
+
+#shield {
+    position: relative;
+    top: -220px;
+    cursor: pointer;
+    left: -425px;
+}
+
+#title1 {
+    color: #152E70;
+    position: absolute;
+    width: 158px;
+    height: 45px;
+    left: 210px;
+    top: 10px;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#title2 {
+    color: red;
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    left: 170px;
+    top: 50px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.topnav {
+    justify-content: end;
+    margin: 0 auto;
+    display: flex;
+    top: 45px;
+    margin-left: 850px;
+}
+
+.menu-bar-item:hover {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-right: 35px;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    padding: 1rem;
+    position: relative;
+    color: #152E70;
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+}
+
+div {
+    position: absolute;
+}
+
+#schoolphoto {
+    left: 125px;
+    top: 160px;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+}
+
+#schoolphoto1 {
+    border-radius: 30px;
+}
+
+#bigtext {
+    position: absolute;
+    top: 700px;
+    font-family: 'Bebas Neue', cursive;
+    color: #152E70;
+    left: 550px;
+    font-size: 40px;
+    text-shadow: 2px 2px #f78888;
+}
+
+#baga {
+    background-color: #152E70;
+    top: 850px;
+    width: 99%;
+    height: 300px;
+    box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 1);
+}
+
+#baga1 {
+    margin-top: 618px;
+    left: 8px;
+    width: 750px;
+    height: 300px;
+    z-index: 1;
+    position: absolute;
+}
+
+#dund {
+    background-color: #152E70;
+    top: 1200px;
+    width: 99%;
+    height: 300px;
+    box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 1);
+}
+
+#dund1 {
+    margin-top: 968px;
+    right: 8px;
+    width: 750px;
+    height: 300px;
+    margin-left: 755px;
+    z-index: 1;
+    position: absolute;
+}
+
+#ahlah {
+    background-color: #152E70;
+    top: 1550px;
+    width: 99%;
+    height: 300px;
+    box-shadow: inset 0px 0px 25px rgba(0, 0, 0, 1);
+}
+
+#ahlah1 {
+    margin-top: 1318px;
+    left: 8px;
+    width: 750px;
+    height: 300px;
+    z-index: 1;
+    position: absolute;
+}
+
+#bagatext {
+    top: 1600px;
+    color: white;
+    margin-left: 770px;
+    font-size: x-large;
+    z-index: 1;
+    font-family: 'Oswald', sans-serif;
+}
+
+#bagatext2 {
+    top: 1700px;
+    color: white;
+    margin-left: 770px;
+    font-size: larger;
+    z-index: 1;
+    font-family: 'Oswald', sans-serif;
+}
+
+#dundtext {
+    top: 2100px;
+    color: white;
+    margin-left: 600px;
+    font-size: x-large;
+    z-index: 1;
+    font-family: 'Oswald', sans-serif;
+}
+
+#dundtext2 {
+    top: 2200px;
+    color: white;
+    margin-left: 30px;
+    font-size: larger;
+    z-index: 1;
+    font-family: 'Oswald', sans-serif;
+}
+
+#ahlahtext {
+    top: 2600px;
+    color: white;
+    margin-left: 770px;
+    font-size: x-large;
+    z-index: 1;
+    font-family: 'Oswald', sans-serif;
+}
+
+#ahlahtext2 {
+    top: 2700px;
+    color: white;
+    margin-left: 770px;
+    font-size: larger;
+    z-index: 1;
+    font-family: 'Oswald', sans-serif;
+}
+
+.medee {
+    top: 1900px;
+    color: #152E70;
+    font-family: 'Oswald', sans-serif;
+    align-items: center;
+    position: absolute;
+}
+
+#medeetext {
+    margin-left: 580px;
+    font-size: 40px;
+    text-shadow: 2px 2px #f78888;
+}
+
+.medee1 {
+    float: left;
+    height: 400px;
+    width: 400px;
+    background-color: #152E70;
+    color: white;
+    border-radius: 33px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 1750px;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+}
+
+#medeedelg1 {
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+#zurag1 {
+    margin-top: 20px;
+    border-radius: 31px;
+}
+
+.medee2 {
+    float: left;
+    height: 400px;
+    width: 400px;
+    background-color: #152E70;
+    color: white;
+    border-radius: 33px;
+    text-align: center;
+    margin-left: 560px;
+    margin-top: 1750px;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+}
+
+#medeedelg2 {
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+#zurag2 {
+    margin-top: 20px;
+    border-radius: 31px;
+}
+
+.medee3 {
+    float: left;
+    height: 400px;
+    width: 400px;
+    background-color: #152E70;
+    color: white;
+    border-radius: 33px;
+    text-align: center;
+    margin-left: 1060px;
+    margin-top: 1750px;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    box-shadow: inset 0px 0px 15px rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.5));
+}
+
+#medeedelg3 {
+    cursor: pointer;
+    font-family: 'Oswald', sans-serif;
+    font-size: medium;
+    margin-top: 10px;
+}
+
+#zurag3 {
+    margin-top: 20px;
+    border-radius: 31px;
+}
+
+.footer {
+    float: left;
+    margin-top: 2350px;
+    color: #152E70;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50px;
+    font-size: large;
+}
+
+#footerimage {
+    float: right;
+    margin-top: 2350px;
+    margin-right: 50px;
+}
+
+#line {
+    margin-top: 2400px;
+}
+
+#copyright {
+    margin-top: 10px;
+    color: #152E70;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 50px;
+    font-size: large;
+    margin-bottom: 150px;
+}
