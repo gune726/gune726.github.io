@@ -86,6 +86,7 @@ div {
     position: absolute;
 }
 
+
 .bigtext {
     color: #152E70;
     font-size: xx-large;
@@ -94,9 +95,13 @@ div {
 }
 
 #bigtext1 {
-    padding-left: 800px;
+    padding-left: 700px;
     font-weight: bold;
     text-shadow: 2px 2px #f78888;
+}
+
+#calendar{
+    padding-left: 130px;
 }
 
 .footer {
