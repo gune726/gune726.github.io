@@ -51,6 +51,9 @@
     font-weight: bold;
     padding-right: 200px;
 }
+.sidebar:hover{
+    color: rgb(177, 20, 20);
+}
 
 #surgaltpic {
     margin-left: 80px;
